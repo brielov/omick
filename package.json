@@ -1,0 +1,57 @@
+{
+  "name": "opick",
+  "version": "0.0.0",
+  "description": "Tiny, type-safe pick and omit functions",
+  "main": "dist/opick.js",
+  "module": "dist/opick.mjs",
+  "typings": "dist/opick.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "postinstall": "is-ci || husky install",
+    "postpublish": "pinst --enable",
+    "prepare": "npm run build",
+    "prepublishOnly": "pinst --disable",
+    "test": "jest"
+  },
+  "keywords": [
+    "filter",
+    "object",
+    "omit",
+    "pick"
+  ],
+  "license": "MIT",
+  "author": "Gabriel Vaquer <brielov@icloud.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brielov/opick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brielov/opick/issues"
+  },
+  "homepage": "https://github.com/brielov/opick#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "esbuild": "^0.13.12",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "pinst": "^2.1.6",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.58.3",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-esbuild": "^4.6.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  }
+}
