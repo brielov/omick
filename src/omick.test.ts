@@ -1,4 +1,4 @@
-import { omit, pick } from "./opick";
+import { omit, pick } from "./omick";
 
 const obj = { id: 1, name: "John", email: "john@doe.com", password: "123456" };
 
@@ -6,7 +6,8 @@ describe(".pick()", () => {
   it("returns a new object with only the specified keys", () => {
     const result = pick(obj, "id", "name");
     expect(result).toEqual({ id: 1, name: "John" });
-    expect(result).not.toHaveProperty("email", "password");
+    expect(result).not.toHaveProperty("email");
+    expect(result).not.toHaveProperty("password");
   });
 });
 

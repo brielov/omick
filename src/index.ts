@@ -1,1 +1,1 @@
-export * from "./opick";
+export * from "./omick";

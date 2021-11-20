@@ -1,10 +1,10 @@
 {
-  "name": "opick",
+  "name": "omick",
   "version": "0.0.0",
-  "description": "Tiny, type-safe pick and omit functions",
-  "main": "dist/opick.js",
-  "module": "dist/opick.mjs",
-  "typings": "dist/opick.d.ts",
+  "description": "Tiny, type-safe pick and omit utility functions",
+  "main": "dist/omick.js",
+  "module": "dist/omick.mjs",
+  "typings": "dist/omick.d.ts",
   "files": [
     "dist"
   ],
@@ -26,12 +26,12 @@
   "author": "Gabriel Vaquer <brielov@icloud.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brielov/opick.git"
+    "url": "git+https://github.com/brielov/omick.git"
   },
   "bugs": {
-    "url": "https://github.com/brielov/opick/issues"
+    "url": "https://github.com/brielov/omick/issues"
   },
-  "homepage": "https://github.com/brielov/opick#readme",
+  "homepage": "https://github.com/brielov/omick#readme",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
