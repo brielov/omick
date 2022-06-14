@@ -1,6 +1,6 @@
 {
   "name": "omick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny, type-safe pick and omit utility functions",
   "main": "dist/omick.js",
   "module": "dist/omick.mjs",
