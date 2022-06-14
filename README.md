@@ -1,9 +1,9 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/brielov/omick/build-test)
-![Codecov](https://img.shields.io/codecov/c/gh/brielov/omick)
-![GitHub issues](https://img.shields.io/github/issues/brielov/omick)
-![GitHub](https://img.shields.io/github/license/brielov/omick)
-![npm](https://img.shields.io/npm/v/omick)
+![NPM](https://img.shields.io/npm/l/omick)
+![Codecov](https://img.shields.io/codecov/c/github/brielov/omick)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/omick)
+![GitHub issues](https://img.shields.io/github/issues/brielov/omick)
+![npm](https://img.shields.io/npm/dm/omick)
+![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/npm/omick)
 
 # Omick
 
